@@ -1,0 +1,142 @@
+@media screen and (max-width: 768px){
+    ul.nav-list{
+        flex-wrap:wrap;
+        align-items: center;
+    }
+}
+
+body{
+    background-color: rgb(201, 201, 201);
+}
+
+h1,
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.parallax .header {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+  }
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list{
+     list-style-type: none;
+     display: flex;
+     width:100%;
+     color:white;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     padding:0;
+     margin:0;
+     text-transform: uppercase; 
+   }
+.nav-list a{
+     display: block;
+     color: white;
+     padding: 11px;
+     text-decoration: none;
+     transition-duration: 700ms;
+     transition-timing-function: ease-in;
+   }
+   
+.pagelink a:hover {
+     background-color: #555;
+     color:white;
+   }
+
+.pagelink {
+    width:150px;
+    height:40px;
+    background-color: rgb(110, 110, 110);
+}
+
+.currentPage{
+    width:150px;
+    height:40px;
+    background-color: rgb(201, 201, 201);
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width:100%;
+}
+
+.body{
+    display: flex;
+    width: 100%;
+}
+
+.left{
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+h5{
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+}
+
+.thingsToDoImg{
+    width: 40%;
+    height: 40%;   
+}
+
+.thingsToDo p{
+    text-align: center;
+}
+
+.img{
+    display: flex;
+    justify-content: space-around;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+}
+
+.toSee{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    margin-right:5px;
+    margin-top: 5px;
+}
+
+.toDo{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    margin-left:5px;
+    margin-top:5px;
+}

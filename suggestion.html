@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Red+Rose&family=Pacifico&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+        <title> Travel Suggestions </title>
+    </head>
+<body>
+    <div class="header">
+        <h1> Maria's Travel Bucketlist</h1>
+    </div>
+    <div class="navigation">
+        <ul class="nav-list">
+            <li class="pagelink"><a href="index.html"> Home</a></li>
+        </ul>
+    </div>
+    <form>
+        <fieldset>
+            <legend> Your Info</legend>
+            First Name: <input type="text" name="firstname">
+            Surname: <input type="text" name="surname">
+            Email: <input type="email" name="email">
+        </fieldset>
+        
+        <fieldset>
+            <legend> Suggestion</legend>
+            <legend> Continent</legend>
+            <input type="radio" name="continent" value="nAmerica"> North America <br>
+            <input type="radio" name="continent" value="sAmerica"> South America <br>
+            <input type="radio" name="continent" value="europe"> Europe <br>
+            <input type="radio" name="continent" value="asia"> Asia <br>
+            <input type="radio" name="continent" value="africa"> Africa <br>
+            <input type="radio" name="continent" value="oceania"> Oceania <br>
+            
+            <br>
+            
+        
+            <legend> Country </legend>
+            <textarea name="country" rows="2" cols="40">
+            Enter the country
+            </textarea>
+            <br>
+
+            <legend> City </legend>
+            <textarea name="city" rows="2" cols="40">
+            Enter the city
+            </textarea>
+            <br>
+
+            <legend>More info</legend>
+            <textarea name="more" rows="4" cols="40">
+            Enter any specifics
+            </textarea>
+            
+        </fieldset>
+        <br><br>
+        <input type="submit" value="Submit travel suggestion">
+        <input type="reset" value="Clear Form">
+    
+    
+    
+    
+    
+    </form>
+
+</body>
+</html>
