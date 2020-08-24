@@ -1,4 +1,7 @@
 @media only screen and (max-width: 768px){
+    .top{
+        flex-wrap: wrap;
+    }
     .postcardRowOne{
         flex-direction: column;
         width: 100%;
