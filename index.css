@@ -11,29 +11,6 @@
         flex-direction: column;
         align-items: center;
     }
-    .imageRowOne{
-        width:100%;
-    }
-    .imageRowTwo{
-        width: 100%;
-    }
-    .rhodes{
-        width:100%;
-        height: auto;
-        position: relative;
-    }
-    .berlin{
-        width: 100%;
-    }
-    .buscalan{
-        width: 100%;
-    }
-    .amsterdam{
-        width: 100%;
-    }
-    .gothenburg{
-        width: 100%;
-    }
 }
 
 body{
@@ -64,31 +41,31 @@ h1{
 }
 
 .rhodes{
-    width:33.3%;
+    width:100%;
     height:auto;
     position: relative;
 }
 
 .berlin{
-    width:50%;
+    width:100%;
     height:auto;
     position: relative;
 }
 
 .gothenburg{
-    width:33.3%;
+    width:100%;
     height:auto;
     position: relative;
 }
 
 .amsterdam{
-    width:50%;
+    width:100%;
     height:auto;
     position: relative;
 }
 
 .buscalan{
-    width:33.3%;
+    width:100%;
     height:auto;
     position: relative;
 }
