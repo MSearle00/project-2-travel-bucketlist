@@ -1,12 +1,6 @@
-@media screen and (max-width: 768px){
-    ul.nav-list{
-        flex-wrap:wrap;
-        align-items: center;
-    }
-}
-
 body{
     background-color: rgb(201, 201, 201);
+
 }
 
 h1,
@@ -100,18 +94,21 @@ h4{
     align-items: center;
 }
 
-.thingsToDoImg{
+.thingsToDoImg,
+.thingsToSeeImg{
     width: 40%;
-    height: 40%;   
+    height: 40%;
 }
 
-.thingsToDo p{
+.thingsToDo p,
+.thingsToSee p{
     text-align: center;
 }
 
 .img{
     display: flex;
     justify-content: space-around;
+    margin-bottom:5px;
 }
 
 .map{
@@ -134,3 +131,21 @@ h4{
     margin-left:5px;
     margin-top:5px;
 }
+
+@media screen and (max-width: 768px){
+    ul.nav-list{
+        flex-wrap:wrap;
+        align-items: center;
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left{
+        width:100%
+    }
+    .right{
+        width:100%
+    }
+ }
