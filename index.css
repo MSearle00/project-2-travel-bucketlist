@@ -4,6 +4,28 @@
     align-items: center;
     text-align: center;
     margin-bottom: 5px;
+    pointer-events: none;
+}
+
+.suggestion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.suggestion button{
+    transition-duration: 700ms;
+    transition-timing-function: ease-in;
+    padding: 8px;
+    background-color: gray;
+    color:white;
+}
+
+.suggestion button:hover {
+    background-color: #555;
+    color:white;
 }
 
 body{
