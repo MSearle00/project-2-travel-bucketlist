@@ -63,6 +63,7 @@ h2{
     width:150px;
     height:40px;
     background-color: rgb(201, 201, 201);
+    pointer-events: none;
 }
 
 .navigation{
